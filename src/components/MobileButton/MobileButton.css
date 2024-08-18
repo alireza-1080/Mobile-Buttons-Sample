@@ -1,0 +1,27 @@
+.mobile-button-container {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #000;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.active {
+    box-shadow: 0 0 30px #2f84e1;
+    border-color: #fff;
+}
+
+.icon {
+    color: #595959;
+    font-size: 1.5rem;
+}
+
+.active .icon {
+    filter: drop-shadow(3px 1px 10px #2f84e1);
+    color: #fff;
+}
